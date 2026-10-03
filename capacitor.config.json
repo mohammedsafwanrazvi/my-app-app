@@ -1,0 +1,27 @@
+{
+  "appId": "com.example.myapp",
+  "appName": "My App",
+  "webDir": "www",
+  "server": {
+    "url": "https://example.com",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.jks",
+      "keystoreAlias": "upload"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0f172a",
+      "launchShowDuration": 1500,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#0f172a",
+      "style": "DARK"
+    }
+  }
+}
